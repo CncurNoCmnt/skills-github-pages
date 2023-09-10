@@ -1,1 +1,33 @@
+## BANDIT - Over The Wire
 
+## [Bandit Level 0](https://overthewire.org/wargames/bandit/bandit0.html)
+
+
+>ssh -p 2220 bandit0@bandit.labs.overthewire.org
+
+![Alt text](image.png)
+
+> ## Passwd: bandit0
+
+## [Bandit Level 0 -> 1](https://overthewire.org/wargames/bandit/bandit1.html)
+
+```
+ssh -p 2220 bandit0@bandit.labs.overthewire.org
+ls 
+cat readme
+logout
+```
+![Alt text](image-1.png)
+
+> ### Passwd : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+
+## [Bandit Level 1 -> 2](https://overthewire.org/wargames/bandit/bandit2.html)
+
+```
+ssh -p 2220 bandit1@bandit.labs.overthewire.org
+ls
+cat ./-
+logout
+```
+> ### Passwd : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
